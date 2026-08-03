@@ -1,31 +1,64 @@
 # Cisco/Linux Home Lab
 
+![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-E95420?logo=ubuntu&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-Catalyst%202960X-1BA0D7?logo=cisco)
+![Nginx](https://img.shields.io/badge/Nginx-Web%20Server-009639?logo=nginx)
+![OpenSSH](https://img.shields.io/badge/OpenSSH-Remote%20Access-black)
+![Tailscale](https://img.shields.io/badge/Tailscale-Remote%20Networking-242424?logo=tailscale)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-yellow?logo=linux)
+
+---
+
 ## Overview
 
-This repository documents my enterprise-style home lab built using a Cisco Catalyst 2960X switch and Ubuntu Server to develop practical experience in Cisco switch administration, Linux systems administration, secure remote management, and network troubleshooting. The lab simulates common enterprise infrastructure administration workflows using both in-band (SSH) and out-of-band (USB console) device management.
+This repository documents my enterprise-style **Cisco/Linux Home Lab** built to develop practical experience in Linux system administration, Cisco networking, secure remote management, infrastructure documentation, and network troubleshooting.
+
+The lab simulates common enterprise infrastructure administration workflows using both **in-band (SSH)** and **out-of-band (USB Console)** management.
 
 ---
 
-## Objectives
+## Verification
 
-- Administer Cisco Catalyst 2960X switches using Cisco IOS
-- Deploy and administer Ubuntu Server
-- Configure secure remote administration using OpenSSH
-- Deploy and manage an Nginx web server
-- Practice Linux system administration
-- Perform systematic network troubleshooting
-- Implement secure infrastructure administration practices
-- Understand both in-band and out-of-band device management
+### Nginx Home Page
+
+![Nginx Homepage](screenshots/nginx/nginx-homepage.png)
 
 ---
 
-## Physical Network Topology
+## Quick Facts
+
+| Item | Value |
+|------|-------|
+| Operating System | Ubuntu 26.04 LTS |
+| Switch | Cisco Catalyst 2960X (WS-C2960X-24TS-L) |
+| Remote Access | OpenSSH, Tailscale |
+| Web Server | Nginx |
+| Version Control | Git & GitHub |
+| Documentation | Markdown |
+| Development | VS Code Remote SSH |
+
+---
+
+# Objectives
+
+- Build enterprise Linux administration skills
+- Practice Cisco IOS administration
+- Configure secure SSH remote management
+- Deploy an Nginx web server
+- Document infrastructure professionally
+- Troubleshoot enterprise networking issues
+- Learn Git and GitHub workflow
+- Build a professional infrastructure portfolio
+
+---
+
+# Physical Network Topology
 
 ![Physical Network Topology](diagrams/physical-topology.png)
 
 ---
 
-## Lab Architecture
+# Lab Architecture
 
 ```text
                     Internet
@@ -51,78 +84,148 @@ Lenovo ───── USB Console Cable ───── Cisco Console Port
 
 ---
 
-## Components
+# Hardware
 
-| Component | Purpose |
-|----------|---------|
-| Cisco Catalyst 2960X | Layer 2 managed switch |
-| Ubuntu Server | Linux server and network services |
-| Lenovo (Linux Mint) | Console administration workstation |
-| MacBook Air | Remote SSH administration |
-| Airtel Home Router | Internet gateway |
-
----
-
-## Features
-
-- Cisco IOS switch administration
-- Ubuntu Server administration
-- Secure SSH remote access
-- OpenSSH server configuration
-- Nginx web server deployment
-- Linux user and group management
-- Linux file permission management
-- Linux package management
-- Linux system service management
-- Network troubleshooting
-- In-band (SSH) administration
-- Out-of-band (USB console) administration
+| Device | Purpose |
+|---------|---------|
+| Cisco Catalyst 2960X | Layer-2 Managed Switch |
+| HP 2000 Notebook PC | Ubuntu Server |
+| Lenovo Laptop | Linux Mint Administration Workstation |
+| MacBook Air | Remote Administration |
+| Airtel Home Router | Internet Gateway |
 
 ---
 
-## Skills Demonstrated
+# Software Stack
+
+- Ubuntu 26.04 LTS
+- Cisco IOS
+- OpenSSH
+- Nginx
+- Tailscale
+- Git
+- GitHub
+- VS Code Remote SSH
+
+---
+
+# Features
 
 - Cisco IOS Administration
-- Linux Systems Administration
+- Ubuntu Server Administration
+- Secure SSH Remote Access
+- Tailscale Remote Connectivity
+- Nginx Web Hosting
+- Linux User & Group Management
+- Linux Service Management
+- Git Version Control
+- Infrastructure Documentation
+- Network Troubleshooting
+- In-band Device Management
+- Out-of-band Console Management
+
+---
+
+# Network Services
+
+| Service | Status | Purpose |
+|---------|--------|---------|
+| OpenSSH | Running | Secure Remote Administration |
+| Nginx | Running | Web Hosting |
+| Tailscale | Running | Secure Remote Networking |
+
+---
+
+# Skills Demonstrated
+
+- Linux System Administration
+- Cisco IOS Administration
 - TCP/IP Networking
 - Secure Remote Administration
 - SSH
 - Nginx
 - Linux Services
+- Git & GitHub
+- Infrastructure Documentation
 - Network Troubleshooting
-- Infrastructure Management
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 cisco-linux-homelab/
+│
 ├── README.md
+├── CHANGELOG.md
+│
 ├── configs/
 │   ├── switch/
 │   └── ubuntu/
+│
 ├── diagrams/
+│
 ├── docs/
+│
 ├── images/
+│
 └── screenshots/
+    ├── nginx/
+    ├── ssh/
+    ├── tailscale/
+    ├── terminal/
+    └── vscode/
 ```
 
 ---
 
-## Documentation
+# Documentation
+
+The repository contains documentation for:
 
 - Architecture
 - Implementation
 - Security
 - Troubleshooting
-- Cisco configurations
-- Ubuntu configurations
-- Physical network topology
+- Ubuntu Configuration
+- Cisco Configuration
+- Network Topology
 
 ---
 
-## Technologies
+# Verification Screenshots
+
+## SSH Login
+
+![SSH Login](screenshots/ssh/ssh-login.png)
+
+---
+
+## VS Code Remote SSH
+
+![VS Code Remote SSH](screenshots/vscode/vscode-remote.png)
+
+---
+
+## Ubuntu System Information
+
+![System Information](screenshots/terminal/system-info.png)
+
+---
+
+## Tailscale
+
+![Tailscale](screenshots/tailscale/tailscale-status.png)
+
+---
+
+## Nginx Homepage
+
+![Nginx Homepage](screenshots/nginx/nginx-homepage.png)
+
+---
+
+# Technologies Used
 
 - Cisco Catalyst 2960X
 - Cisco IOS
@@ -131,24 +234,46 @@ cisco-linux-homelab/
 - OpenSSH
 - Nginx
 - Git
+- GitHub
 - Tailscale
+- VS Code Remote SSH
 - TCP/IP
-- SSH
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- VLAN implementation on the physical switch
-- Docker-based services
-- Python network automation
-- Configuration backup automation
-- Infrastructure monitoring
-- Centralized logging
-- SNMP monitoring
+- VLAN Configuration
+- Inter-VLAN Routing
+- Port Security
+- Docker Containers
+- Python Network Automation
+- Configuration Backup Automation
+- Infrastructure Monitoring
+- Centralized Logging
+- SNMP Monitoring
+- Ansible Automation
+- Prometheus & Grafana
+- Kubernetes Home Lab
 
 ---
 
-## License
+# Author
 
-This project is maintained for educational, portfolio, and professional development purposes.
+**Prajwal R**
+
+Information Science & Engineering Student
+
+### Areas of Interest
+
+- Linux System Administration
+- Computer Networking
+- Infrastructure Engineering
+- Network Automation
+- Cloud Infrastructure
+
+---
+
+# License
+
+This repository is maintained for educational, portfolio, and professional development purposes.
