@@ -1,0 +1,17 @@
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-08-03 08:34:20 IST; 2h 21min ago
+ Invocation: 2ade990b32f64d869453b8502a271c76
+       Docs: man:nginx(8)
+    Process: 1864 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 1896 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 1897 (nginx)
+      Tasks: 3 (limit: 3861)
+     Memory: 4.6M (peak: 4.8M)
+        CPU: 49ms
+     CGroup: /system.slice/nginx.service
+             ├─1897 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─1898 "nginx: worker process"
+             └─1899 "nginx: worker process"
+
+Warning: some journal files were not opened due to insufficient permissions.

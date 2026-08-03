@@ -1,0 +1,16 @@
+  Static hostname: homelab-srv01
+        Icon name: computer-laptop
+          Chassis: laptop 💻
+Chassis Asset Tag: 5CG319243D
+       Machine ID: 067878c4f0624fd5949f9f76691d4945
+          Boot ID: db4fa5b8c2444a65a987a9bc48e4a869
+ Operating System: Ubuntu 26.04 LTS
+           Kernel: Linux 7.0.0-28-generic
+     Architecture: x86-64
+  Hardware Vendor: Hewlett-Packard
+   Hardware Model: HP 2000 Notebook PC
+     Hardware SKU: D9H39PA#ACJ
+ Hardware Version: 088F130000005910000600000
+ Firmware Version: F.34
+    Firmware Date: Fri 2013-05-03
+     Firmware Age: 13y 3month

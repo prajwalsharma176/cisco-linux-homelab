@@ -1,0 +1,14 @@
+● tailscaled.service - Tailscale node agent
+     Loaded: loaded (/usr/lib/systemd/system/tailscaled.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-08-03 08:32:28 IST; 2h 23min ago
+ Invocation: 2de6e1e1d4d34dafbcde1f04d437fde8
+       Docs: https://tailscale.com/docs/
+   Main PID: 1705 (tailscaled)
+     Status: "Connected; prajwalr1706@gmail.com; 100.105.58.34 fd7a:115c:a1e0::1d3b:3a23"
+      Tasks: 10 (limit: 3861)
+     Memory: 49.2M (peak: 54.7M)
+        CPU: 28.842s
+     CGroup: /system.slice/tailscaled.service
+             └─1705 /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641
+
+Warning: some journal files were not opened due to insufficient permissions.

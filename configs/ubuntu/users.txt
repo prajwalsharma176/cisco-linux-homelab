@@ -1,0 +1,1 @@
+uid=1000(prajwal) gid=1000(prajwal) groups=1000(prajwal),27(sudo),100(users)
