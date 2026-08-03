@@ -4,7 +4,7 @@
  Invocation: 2de6e1e1d4d34dafbcde1f04d437fde8
        Docs: https://tailscale.com/docs/
    Main PID: 1705 (tailscaled)
-     Status: "Connected; prajwalr1706@gmail.com; 100.105.58.34 fd7a:115c:a1e0::1d3b:3a23"
+     Connected; <email-redacted>; <tailscale-ip-redacted>
       Tasks: 10 (limit: 3861)
      Memory: 49.2M (peak: 54.7M)
         CPU: 28.842s
