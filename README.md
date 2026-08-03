@@ -9,15 +9,16 @@
 
 ---
 
-# Overview
+## Overview
 
-This repository documents my **Cisco/Linux Home Lab**, built to gain practical experience in Linux system administration, Cisco networking, secure remote administration, infrastructure documentation, and network troubleshooting.
+This repository documents my enterprise-style **Cisco/Linux Home Lab** built to develop practical experience in Linux system administration, Cisco networking, secure remote management, infrastructure documentation, and network troubleshooting.
 
-The lab simulates common enterprise infrastructure workflows using both **in-band (SSH)** and **out-of-band (USB Console)** device management.
+The lab simulates common enterprise infrastructure administration workflows using both **in-band (SSH)** and **out-of-band (USB Console)** management.
 
 ---
 
-# Quick Facts
+
+## Quick Facts
 
 | Item | Value |
 |------|-------|
@@ -26,8 +27,8 @@ The lab simulates common enterprise infrastructure workflows using both **in-ban
 | Remote Access | OpenSSH, Tailscale |
 | Web Server | Nginx |
 | Version Control | Git & GitHub |
-| Development | VS Code Remote SSH |
 | Documentation | Markdown |
+| Development | VS Code Remote SSH |
 
 ---
 
@@ -36,10 +37,10 @@ The lab simulates common enterprise infrastructure workflows using both **in-ban
 - Build enterprise Linux administration skills
 - Practice Cisco IOS administration
 - Configure secure SSH remote management
-- Deploy and manage an Nginx web server
+- Deploy an Nginx web server
 - Document infrastructure professionally
-- Troubleshoot networking issues
-- Learn Git and GitHub workflows
+- Troubleshoot enterprise networking issues
+- Learn Git and GitHub workflow
 - Build a professional infrastructure portfolio
 
 ---
@@ -94,7 +95,6 @@ Lenovo ───── USB Console Cable ───── Cisco Console Port
 - Cisco IOS
 - OpenSSH
 - Nginx
-- Docker
 - Tailscale
 - Git
 - GitHub
@@ -125,7 +125,6 @@ Lenovo ───── USB Console Cable ───── Cisco Console Port
 |---------|--------|---------|
 | OpenSSH | Running | Secure Remote Administration |
 | Nginx | Running | Web Hosting |
-| Docker | Running | Container Runtime |
 | Tailscale | Running | Secure Remote Networking |
 
 ---
@@ -135,12 +134,12 @@ Lenovo ───── USB Console Cable ───── Cisco Console Port
 - Linux System Administration
 - Cisco IOS Administration
 - TCP/IP Networking
+- Secure Remote Administration
 - SSH
 - Nginx
-- Docker
+- Linux Services
 - Git & GitHub
 - Infrastructure Documentation
-- Remote Administration
 - Network Troubleshooting
 
 ---
@@ -150,36 +149,32 @@ Lenovo ───── USB Console Cable ───── Cisco Console Port
 ```text
 cisco-linux-homelab/
 │
-├── .github/
-├── CHANGELOG.md
-├── LICENSE
 ├── README.md
+├── CHANGELOG.md
 │
 ├── configs/
-│   ├── docker/
-│   ├── nginx/
 │   ├── switch/
 │   └── ubuntu/
 │
 ├── diagrams/
-├── docs/
-├── monitoring/
-├── runbooks/
-├── screenshots/
-│   ├── nginx/
-│   ├── ssh/
-│   ├── tailscale/
-│   ├── terminal/
-│   └── vscode/
 │
-└── scripts/
+├── docs/
+│
+├── images/
+│
+└── screenshots/
+    ├── nginx/
+    ├── ssh/
+    ├── tailscale/
+    ├── terminal/
+    └── vscode/
 ```
 
 ---
 
 # Documentation
 
-This repository includes documentation covering:
+The repository contains documentation for:
 
 - Architecture
 - Implementation
@@ -187,9 +182,7 @@ This repository includes documentation covering:
 - Troubleshooting
 - Ubuntu Configuration
 - Cisco Configuration
-- Docker Configuration
 - Network Topology
-- Linux Administration Scripts
 
 ---
 
@@ -213,29 +206,15 @@ This repository includes documentation covering:
 
 ---
 
-## Tailscale Service
+## Tailscale
 
 ![Tailscale](screenshots/tailscale/tailscale-status.png)
 
 ---
 
-## Nginx Web Server
+## Nginx Homepage
 
 ![Nginx Homepage](screenshots/nginx/nginx-homepage.png)
-
----
-
-# Automation Scripts
-
-The repository contains administration scripts for common operational tasks.
-
-| Script | Purpose |
-|---------|---------|
-| system-info.sh | Display system information |
-| health-check.sh | Verify important services |
-| nginx-restart.sh | Restart Nginx |
-| update-server.sh | Update Ubuntu packages |
-| backup-config.sh | Backup project configuration |
 
 ---
 
@@ -247,12 +226,10 @@ The repository contains administration scripts for common operational tasks.
 - Linux
 - OpenSSH
 - Nginx
-- Docker
 - Git
 - GitHub
 - Tailscale
 - VS Code Remote SSH
-- Bash
 - TCP/IP
 
 ---
@@ -262,15 +239,14 @@ The repository contains administration scripts for common operational tasks.
 - VLAN Configuration
 - Inter-VLAN Routing
 - Port Security
-- Cisco SSH Management
+- Docker Containers
 - Python Network Automation
 - Configuration Backup Automation
 - Infrastructure Monitoring
 - Centralized Logging
 - SNMP Monitoring
 - Ansible Automation
-- Prometheus
-- Grafana
+- Prometheus & Grafana
 - Kubernetes Home Lab
 
 ---
@@ -293,4 +269,4 @@ Information Science & Engineering Student
 
 # License
 
-This project is maintained for educational, portfolio, and professional development purposes.
+This repository is maintained for educational, portfolio, and professional development purposes.
