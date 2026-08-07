@@ -1,4 +1,4 @@
-# Cisco/Linux Home Lab
+# Enterprise Cisco & Linux Infrastructure Homelab
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-E95420?logo=ubuntu&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-Catalyst%202960X-1BA0D7?logo=cisco)
@@ -6,6 +6,10 @@
 ![OpenSSH](https://img.shields.io/badge/OpenSSH-Remote%20Access-black)
 ![Tailscale](https://img.shields.io/badge/Tailscale-Remote%20Networking-242424?logo=tailscale)
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-yellow?logo=linux)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Cisco](https://img.shields.io/badge/Cisco-IOS-blue)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 
 ---
 
@@ -193,6 +197,7 @@ Implemented security measures include:
 
 ---
 
+
 # Skills Demonstrated
 
 - Linux System Administration
@@ -208,24 +213,43 @@ Implemented security measures include:
 
 ---
 
+# Cisco Technologies
+
+The following Cisco technologies are implemented or explored in this home lab:
+
+- Cisco IOS CLI
+- VLANs
+- SSH
+- NTP
+- Syslog
+- PortFast
+- BPDU Guard
+- Management VLAN
+- MAC Address Table
+- Spanning Tree Protocol (STP)
+
+
+
+
+---
+
 # Repository Structure
 
 ```text
 cisco-linux-homelab/
-│
 ├── README.md
 ├── CHANGELOG.md
-│
+├── LICENSE
+├── automation/
+│   ├── backup_switch.py
+│   ├── show_version.py
+│   └── requirements.txt
 ├── configs/
 │   ├── switch/
 │   └── ubuntu/
-│
 ├── diagrams/
-│
 ├── docs/
-│
 ├── images/
-│
 └── screenshots/
     ├── nginx/
     ├── ssh/
@@ -233,7 +257,6 @@ cisco-linux-homelab/
     ├── terminal/
     └── vscode/
 ```
-
 ---
 
 # Documentation
