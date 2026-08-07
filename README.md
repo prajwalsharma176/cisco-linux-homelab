@@ -1,95 +1,78 @@
 # Cisco/Linux Home Lab
 
-Enterprise-style Cisco and Linux Home Lab built to develop practical skills in Linux administration, Cisco networking, network automation, infrastructure monitoring, and enterprise documentation.
+![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-E95420?logo=ubuntu&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-Catalyst%202960X-1BA0D7?logo=cisco)
+![Nginx](https://img.shields.io/badge/Nginx-Web%20Server-009639?logo=nginx)
+![OpenSSH](https://img.shields.io/badge/OpenSSH-Remote%20Access-black)
+![Tailscale](https://img.shields.io/badge/Tailscale-Remote%20Networking-242424?logo=tailscale)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-yellow?logo=linux)
 
 ---
 
-## Project Overview
+## Overview
 
-This project documents the design, implementation, automation, and management of my personal enterprise-style networking laboratory.
+This repository documents my enterprise-style **Cisco/Linux Home Lab** built to develop practical experience in Linux system administration, Cisco networking, secure remote management, infrastructure documentation, and network troubleshooting.
 
-The lab combines Cisco networking hardware with Linux servers to simulate real-world infrastructure administration tasks including:
-
-- Cisco IOS administration
-- Linux server administration
-- Secure remote management
-- Network troubleshooting
-- Infrastructure documentation
-- Python network automation
-- Configuration backup
-- Git/GitHub workflow
-
-The primary goal is to build hands-on infrastructure engineering skills similar to those used in enterprise environments.
+The lab simulates common enterprise infrastructure administration workflows using both **in-band (SSH)** and **out-of-band (USB Console)** management.
 
 ---
 
-# Project Status
 
-| Component | Status |
-|------------|---------|
-| Cisco Switch Installation | ✅ Complete |
-| Ubuntu Server | ✅ Complete |
-| SSH Management | ✅ Complete |
-| VS Code Remote SSH | ✅ Complete |
-| GitHub Repository | ✅ Complete |
-| NTP Synchronization | ✅ Complete |
-| Syslog Configuration | ✅ Complete |
-| PortFast | ✅ Complete |
-| BPDU Guard | ✅ Complete |
-| Python Automation | ✅ Complete |
-| Configuration Backup | ✅ Complete |
-| VLAN Configuration | 🚧 In Progress |
-| SNMP Monitoring | 🚧 Planned |
-| LibreNMS | 🚧 Planned |
-| Docker | 🚧 Planned |
-| Grafana | 🚧 Planned |
-| Ansible | 🚧 Planned |
+## Quick Facts
+
+| Item | Value |
+|------|-------|
+| Operating System | Ubuntu 26.04 LTS |
+| Switch | Cisco Catalyst 2960X (WS-C2960X-24TS-L) |
+| Remote Access | OpenSSH, Tailscale |
+| Web Server | Nginx |
+| Version Control | Git & GitHub |
+| Documentation | Markdown |
+| Development | VS Code Remote SSH |
 
 ---
 
 # Objectives
 
-The objectives of this project are:
-
-- Learn enterprise Linux administration
-- Learn Cisco IOS administration
-- Build practical networking skills
-- Practice secure remote administration
-- Implement infrastructure monitoring
-- Learn Python network automation
+- Build enterprise Linux administration skills
+- Practice Cisco IOS administration
+- Configure secure SSH remote management
+- Deploy an Nginx web server
 - Document infrastructure professionally
-- Practice Git version control
-- Build a professional networking portfolio
+- Troubleshoot enterprise networking issues
+- Learn Git and GitHub workflow
+- Build a professional infrastructure portfolio
 
 ---
 
 # Physical Network Topology
 
-![Network Topology](images/network-topology.png)
+![Physical Network Topology](diagrams/physical-topology.png)
 
 ---
 
-# Logical Network Topology
+# Lab Architecture
 
 ```text
                     Internet
                         │
-                Airtel Home Router
-                  192.168.1.1
+                 Airtel Home Router
+                 (Default Gateway)
                         │
-                        │
-            Cisco Catalyst 2960X Switch
-              Management IP
-               192.168.1.2
-                VLAN 1
-        ┌──────────────┴──────────────┐
-        │                             │
-Ubuntu Server                   Linux Mint
-192.168.1.8                  Administration PC
-                                   │
-                                   │ SSH
-                                   │
-                            MacBook Air
+                Cisco Catalyst 2960X
+              WS-C2960X-24TS-L
+                 │              │
+                 │              │
+          Ubuntu Server     Lenovo (Linux Mint)
+          (HP Notebook)            │
+                 ▲                 │
+                 │                 │
+                 └──── SSH ────────┘
+                       ▲
+                       │
+             MacBook Air (Remote Administration)
+
+Lenovo ───── USB Console Cable ───── Cisco Console Port
 ```
 
 ---
@@ -98,152 +81,66 @@ Ubuntu Server                   Linux Mint
 
 | Device | Purpose |
 |---------|---------|
-| Cisco Catalyst WS-C2960X-24TS-L | Layer-2 Managed Switch |
-| HP Notebook 2000 | Ubuntu Server |
-| Lenovo Laptop | Linux Mint Administration |
+| Cisco Catalyst 2960X | Layer-2 Managed Switch |
+| HP 2000 Notebook PC | Ubuntu Server |
+| Lenovo Laptop | Linux Mint Administration Workstation |
 | MacBook Air | Remote Administration |
-| Airtel Router | Internet Gateway |
+| Airtel Home Router | Internet Gateway |
 
 ---
 
-# Software
+# Software Stack
 
-- Ubuntu Server 26.04 LTS
+- Ubuntu 26.04 LTS
 - Cisco IOS
-- Python 3
-- Netmiko
 - OpenSSH
-- VS Code Remote SSH
-- Git
-- GitHub
 - Nginx
 - Tailscale
-
----
-
-# Network Addressing
-
-| Device | IP Address |
-|---------|------------|
-| Airtel Router | 192.168.1.1 |
-| Cisco Switch | 192.168.1.2 |
-| Ubuntu Server | 192.168.1.8 |
-| Linux Mint | DHCP |
-| MacBook Air | DHCP |
-
----
-
-# Cisco Features Configured
-
-Successfully configured:
-
-- SSH Remote Management
-- Local User Authentication
-- NTP Synchronization
-- Syslog
-- PortFast
-- BPDU Guard
-- Interface Descriptions
-- VLAN Management Interface
-- Default Gateway
-- Secure Remote Login
-
----
-
-# Linux Features Configured
-
-- OpenSSH Server
-- VS Code Remote SSH
 - Git
 - GitHub
-- Python Virtual Environment
-- Netmiko
+- VS Code Remote SSH
+
+---
+
+# Features
+
+- Cisco IOS Administration
+- Ubuntu Server Administration
+- Secure SSH Remote Access
+- Tailscale Remote Connectivity
+- Nginx Web Hosting
+- Linux User & Group Management
+- Linux Service Management
+- Git Version Control
+- Infrastructure Documentation
+- Network Troubleshooting
+- In-band Device Management
+- Out-of-band Console Management
+
+---
+
+# Network Services
+
+| Service | Status | Purpose |
+|---------|--------|---------|
+| OpenSSH | Running | Secure Remote Administration |
+| Nginx | Running | Web Hosting |
+| Tailscale | Running | Secure Remote Networking |
+
+---
+
+# Skills Demonstrated
+
+- Linux System Administration
+- Cisco IOS Administration
+- TCP/IP Networking
+- Secure Remote Administration
+- SSH
 - Nginx
-- Rsyslog
-- Tailscale
-- Systemd Services
-
----
-
-# Python Network Automation
-
-Python automation is used to connect to the Cisco switch through SSH using Netmiko.
-
-Current automation tasks:
-
-- Connect to Cisco Switch
-- Execute multiple show commands
-- Save command output
-- Backup switch information
-- Maintain configuration snapshots
-
-Commands collected automatically:
-
-- show version
-- show inventory
-- show clock
-- show interfaces status
-- show interfaces description
-- show ip interface brief
-- show vlan brief
-- show running-config
-- show startup-config
-- show logging
-- show ntp status
-- show mac address-table
-- show spanning-tree summary
-- show ip ssh
-- show users
-- show cdp neighbors
-
----
-
-# Automation Workflow
-
-```text
-Python Script
-      │
-      ▼
-Netmiko SSH
-      │
-      ▼
-Cisco Switch
-      │
-      ▼
-Execute Show Commands
-      │
-      ▼
-Collect Output
-      │
-      ▼
-Save to Files
-      │
-      ▼
-Git Commit
-      │
-      ▼
-GitHub Repository
-```
-
----
-
-# Monitoring
-
-Current monitoring includes:
-
-- SSH connectivity
-- Syslog
-- NTP status
-- Interface status
-- Switch logs
-- Configuration backup
-
-Planned monitoring:
-
-- SNMP
-- LibreNMS
-- Grafana
-- Prometheus
+- Linux Services
+- Git & GitHub
+- Infrastructure Documentation
+- Network Troubleshooting
 
 ---
 
@@ -251,10 +148,9 @@ Planned monitoring:
 
 ```text
 cisco-linux-homelab/
-
+│
 ├── README.md
 ├── CHANGELOG.md
-├── LICENSE
 │
 ├── configs/
 │   ├── switch/
@@ -266,18 +162,12 @@ cisco-linux-homelab/
 │
 ├── images/
 │
-├── screenshots/
-│   ├── ssh/
-│   ├── vscode/
-│   ├── nginx/
-│   ├── cisco/
-│   └── automation/
-│
-├── monitoring/
-│
-├── runbooks/
-│
-└── scripts/
+└── screenshots/
+    ├── nginx/
+    ├── ssh/
+    ├── tailscale/
+    ├── terminal/
+    └── vscode/
 ```
 
 ---
@@ -286,110 +176,78 @@ cisco-linux-homelab/
 
 The repository contains documentation for:
 
-- Cisco Configuration
+- Architecture
+- Implementation
+- Security
+- Troubleshooting
 - Ubuntu Configuration
+- Cisco Configuration
 - Network Topology
-- Python Automation
-- SSH
-- Syslog
-- NTP
-- Git Workflow
-- Troubleshooting Guides
 
 ---
 
-# Screenshots
+# Verification Screenshots
 
-## Cisco SSH
+## SSH Login
 
-*(Add screenshot)*
+![SSH Login](screenshots/ssh/ssh-login.png)
 
 ---
 
 ## VS Code Remote SSH
 
-*(Add screenshot)*
+![VS Code Remote SSH](screenshots/vscode/vscode-remote.png)
 
 ---
 
-## Cisco CLI
+## Ubuntu System Information
 
-*(Add screenshot)*
-
----
-
-## Python Automation
-
-*(Add screenshot)*
+![System Information](screenshots/terminal/system-info.png)
 
 ---
 
-## GitHub Repository
+## Tailscale
 
-*(Add screenshot)*
-
----
-
-## Nginx
-
-*(Add screenshot)*
+![Tailscale](screenshots/tailscale/tailscale-status.png)
 
 ---
 
-## Skills Demonstrated
+## Nginx Homepage
 
-### Networking
+![Nginx Homepage](screenshots/nginx/nginx-homepage.png)
 
+---
+
+# Technologies Used
+
+- Cisco Catalyst 2960X
 - Cisco IOS
-- Switching
-- VLAN Fundamentals
-- PortFast
-- BPDU Guard
-- NTP
-- Syslog
-- SSH
-- TCP/IP
-
-### Linux
-
 - Ubuntu Server
+- Linux
 - OpenSSH
-- Systemd
 - Nginx
-- Bash
-- Networking
-
-### Automation
-
-- Python
-- Netmiko
-- SSH Automation
-- Configuration Backup
-
-### DevOps
-
 - Git
 - GitHub
-- VS Code
-- Markdown
+- Tailscale
+- VS Code Remote SSH
+- TCP/IP
 
 ---
 
-# Future Roadmap
+# Future Improvements
 
-- VLAN Segmentation
+- VLAN Configuration
 - Inter-VLAN Routing
 - Port Security
-- EtherChannel
-- SNMP
-- LibreNMS
-- Docker
-- Grafana
-- Prometheus
-- Ansible
-- CI/CD
-- Multi-device Automation
-- Automated Configuration Compliance
+- Docker Containers
+- Python Network Automation
+- Configuration Backup Automation
+- Infrastructure Monitoring
+- Centralized Logging
+- SNMP Monitoring
+- Ansible Automation
+- Prometheus & Grafana
+- Kubernetes Home Lab
 
 ---
 
@@ -401,15 +259,14 @@ Information Science & Engineering Student
 
 ### Areas of Interest
 
-- Computer Networking
 - Linux System Administration
+- Computer Networking
 - Infrastructure Engineering
 - Network Automation
 - Cloud Infrastructure
-- DevOps
 
 ---
 
 # License
 
-This project is maintained for educational purposes, continuous learning, and professional portfolio development.
+This repository is maintained for educational, portfolio, and professional development purposes.
