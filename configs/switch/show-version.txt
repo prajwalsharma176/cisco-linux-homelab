@@ -6,7 +6,7 @@ Compiled Tue 06-Mar-18 06:58 by prod_rel_team
 ROM: Bootstrap program is C2960X boot loader
 BOOTLDR: C2960X Boot Loader (C2960X-HBOOT-M) Version 15.2(2r)E2, RELEASE SOFTWARE (fc1)
 
-Cisco-Switch uptime is 2 hours, 50 minutes
+Cisco-Switch uptime is 3 hours, 2 minutes
 System returned to ROM by power-on
 System restarted at 06:50:34 UTC Fri Aug 7 2026
 System image file is "flash:/c2960x-universalk9-mz.152-6.E1/c2960x-universalk9-mz.152-6.E1.bin"

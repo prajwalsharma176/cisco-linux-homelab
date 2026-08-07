@@ -1,25 +1,14 @@
 SSH Enabled - version 1.99
-
-Authentication methods:
-- publickey
-- keyboard-interactive
-- password
-
-Authentication Publickey Algorithms: <SUPPORTED_ALGORITHMS>
-Hostkey Algorithms:
-- x509v3-ssh-rsa
-- ssh-rsa
-
-Encryption Algorithms:
-<REDACTED>
-
-MAC Algorithms:
-<REDACTED>
-
-Authentication timeout: 120 secs
-Authentication retries: 3
-
-Minimum expected Diffie Hellman key size: 1024 bits
-
-IOS Keys in SECSH format:
-<REDACTED>
+Authentication methods:publickey,keyboard-interactive,password
+Authentication Publickey Algorithms:x509v3-ssh-rsa,ssh-rsa
+Hostkey Algorithms:x509v3-ssh-rsa,ssh-rsa
+Encryption Algorithms:aes128-ctr,aes192-ctr,aes256-ctr
+MAC Algorithms:hmac-sha1,hmac-sha1-96
+Authentication timeout: 120 secs; Authentication retries: 3
+Minimum expected Diffie Hellman key size : 1024 bits
+IOS Keys in SECSH format(ssh-rsa, base64 encoded): Cisco-Switch.lab.local
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCUfYL+R7tbxGXfEmk/KF9xHj5Vq3Yjk7KgSUi8oPYt
+zCUiRPJNpnkL6P03ZjGi8j29MshFCyDPN+TkklK15BeR4mtRh0WT1uEWx7KYK0eyMp4fLgMNJIf/vaSB
+r0UURFNMiuolWyR7jxSEsefX5dgM6eRj8No/wJgEB+uNs9/nQOmgQ9BYzL8D/TaqZ3kfm/bpY1lojllR
++eabTCg4ckACO/Bt9E/2MP75W6ny/Jqxte8N5FEZ2ilXoVcOtj0G5mgRD8VFm64oBVIJ/SsfxacrUYBp
+yTWxzMVEu7Ub/SLDj7GbGEkmmvcYrvfrKeY4RvEpXn6xnqk8Hn0BuWQl4KBd                    
