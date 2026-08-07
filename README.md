@@ -119,6 +119,70 @@ Lenovo ───── USB Console Cable ───── Cisco Console Port
 
 ---
 
+# Completed Configuration
+
+- ✅ SSH remote administration
+- ✅ Cisco local user authentication
+- ✅ Secure VTY configuration (SSH only)
+- ✅ NTP synchronization with time.google.com
+- ✅ Syslog forwarding to Ubuntu Server (rsyslog)
+- ✅ PortFast configuration on edge ports
+- ✅ BPDU Guard on access ports
+- ✅ Switch management VLAN configuration
+- ✅ GitHub-based configuration backup
+- ✅ Python automation using Netmiko
+
+
+---
+
+# Network Automation
+
+The lab includes Python automation using Netmiko to:
+
+- Connect to the Cisco switch over SSH
+- Execute multiple operational commands
+- Save outputs automatically
+- Maintain switch documentation
+- Version control configuration snapshots using Git
+
+Commands collected include:
+
+- show version
+- show inventory
+- show ip interface brief
+- show interfaces status
+- show interfaces description
+- show vlan brief
+- show mac address-table
+- show spanning-tree summary
+- show logging
+- show ntp status
+- show ip ssh
+- show running-config
+- show startup-config
+
+
+---
+
+
+# Security Hardening
+
+Implemented security measures include:
+
+- SSH-only remote administration
+- Local authenticated user accounts
+- Password-encrypted user database
+- PortFast configured on edge interfaces
+- BPDU Guard enabled on access ports
+- NTP synchronization with `time.google.com`
+- Centralized syslog logging to Ubuntu Server (`rsyslog`)
+- Secure switch management using SSH (VTY configured for SSH only)
+
+---
+
+
+
+
 # Network Services
 
 | Service | Status | Purpose |
@@ -240,10 +304,7 @@ The repository contains documentation for:
 - Inter-VLAN Routing
 - Port Security
 - Docker Containers
-- Python Network Automation
-- Configuration Backup Automation
 - Infrastructure Monitoring
-- Centralized Logging
 - SNMP Monitoring
 - Ansible Automation
 - Prometheus & Grafana
