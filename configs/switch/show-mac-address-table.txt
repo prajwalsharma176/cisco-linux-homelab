@@ -25,10 +25,11 @@ Vlan    Mac Address       Type        Ports
  All    0180.c200.0010    STATIC      CPU
  All    ffff.ffff.ffff    STATIC      CPU
    1    0000.0100.0200    DYNAMIC     Gi1/0/5
+   1    00e0.4c36.7223    DYNAMIC     Gi1/0/9
    1    2c59.e5a5.7f7b    DYNAMIC     Gi1/0/2
    1    9af2.28d2.f044    DYNAMIC     Gi1/0/5
    1    c02e.5fb5.2ca1    DYNAMIC     Gi1/0/5
-   1    d8b0.534b.6fb9    DYNAMIC     Gi1/0/5
    1    dc21.481e.f537    DYNAMIC     Gi1/0/5
    1    e85a.8b56.2cd9    DYNAMIC     Gi1/0/5
-Total Mac Addresses for this criterion: 28
+   1    f2cd.8a84.8a91    DYNAMIC     Gi1/0/5
+Total Mac Addresses for this criterion: 29

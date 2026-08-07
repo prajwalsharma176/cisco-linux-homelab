@@ -6,57 +6,61 @@ Compiled Tue 06-Mar-18 06:58 by prod_rel_team
 ROM: Bootstrap program is C2960X boot loader
 BOOTLDR: C2960X Boot Loader (C2960X-HBOOT-M) Version 15.2(2r)E2, RELEASE SOFTWARE (fc1)
 
-Cisco-Switch uptime is 2 hours, 26 minutes
+Cisco-Switch uptime is 2 hours, 50 minutes
 System returned to ROM by power-on
 System restarted at 06:50:34 UTC Fri Aug 7 2026
 System image file is "flash:/c2960x-universalk9-mz.152-6.E1/c2960x-universalk9-mz.152-6.E1.bin"
 Last reload reason: power-on
 
+
+
 This product contains cryptographic features and is subject to United
 States and local country laws governing import, export, transfer and
-use.
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
 
 cisco WS-C2960X-24TS-L (APM86XXX) processor (revision K0) with 524288K bytes of memory.
-
-Processor board ID           : <REDACTED>
-
+Processor board ID FCW1949B1HB
 Last reset from power-on
-
 3 Virtual Ethernet interfaces
 1 FastEthernet interface
 28 Gigabit Ethernet interfaces
 2 Ten Gigabit Ethernet interfaces
-
 The password-recovery mechanism is enabled.
 
 512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:DA:55:AB:6C:80
+Motherboard assembly number     : 73-15973-02
+Power supply part number        : 341-0529-02
+Motherboard serial number       : FOC19490Z0S
+Power supply serial number      : LIT194418PA
+Model revision number           : K0
+Motherboard revision number     : C0
+Model number                    : WS-C2960X-24TS-L
+Daughterboard assembly number   : 73-14200-03
+Daughterboard serial number     : FOC194808G6
+System serial number            : FCW1949B1HB
+Top Assembly Part Number        : 800-41470-01
+Top Assembly Revision Number    : F0
+Version ID                      : V03
+CLEI Code Number                : CMMMU00ARB
+Daughterboard revision number   : A0
+Hardware Board Revision Number  : 0x12
 
-Base ethernet MAC Address    : <REDACTED>
 
-Motherboard assembly number  : <REDACTED>
-Power supply part number     : <REDACTED>
-Motherboard serial number    : <REDACTED>
-Power supply serial number   : <REDACTED>
+Switch Ports Model                     SW Version            SW Image                 
+------ ----- -----                     ----------            ----------               
+*    1 30    WS-C2960X-24TS-L          15.2(6)E1             C2960X-UNIVERSALK9-M     
 
-Model revision number        : K0
-Motherboard revision number  : C0
-
-Model number                 : WS-C2960X-24TS-L
-
-Daughterboard assembly number: <REDACTED>
-Daughterboard serial number  : <REDACTED>
-System serial number         : <REDACTED>
-
-Top Assembly Part Number     : <REDACTED>
-Top Assembly Revision Number : F0
-Version ID                   : V03
-CLEI Code Number             : <REDACTED>
-
-Daughterboard revision number: A0
-Hardware Board Revision Number: 0x12
-
-Switch Ports  Model               SW Version   SW Image
------- -----  ------------------  -----------  ----------------------
-*    1 30     WS-C2960X-24TS-L    15.2(6)E1    C2960X-UNIVERSALK9-M
 
 Configuration register is 0xF

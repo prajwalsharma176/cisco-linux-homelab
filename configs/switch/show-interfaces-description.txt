@@ -1,0 +1,33 @@
+Interface                      Status         Protocol Description
+Vl1                            up             up       
+Vl10                           up             down     
+Vl20                           up             down     
+Fa0                            down           down     
+Gi1/0/1                        down           down     
+Gi1/0/2                        up             up       Ubuntu Server
+Gi1/0/3                        admin down     down     
+Gi1/0/4                        admin down     down     
+Gi1/0/5                        up             up       Airtel Router
+Gi1/0/6                        admin down     down     
+Gi1/0/7                        admin down     down     
+Gi1/0/8                        admin down     down     
+Gi1/0/9                        up             up       Linux Mint Admin Laptop
+Gi1/0/10                       admin down     down     
+Gi1/0/11                       admin down     down     
+Gi1/0/12                       admin down     down     
+Gi1/0/13                       admin down     down     
+Gi1/0/14                       admin down     down     
+Gi1/0/15                       admin down     down     
+Gi1/0/16                       admin down     down     
+Gi1/0/17                       admin down     down     
+Gi1/0/18                       admin down     down     
+Gi1/0/19                       admin down     down     
+Gi1/0/20                       admin down     down     
+Gi1/0/21                       admin down     down     
+Gi1/0/22                       admin down     down     
+Gi1/0/23                       admin down     down     
+Gi1/0/24                       admin down     down     
+Gi1/0/25                       admin down     down     
+Gi1/0/26                       admin down     down     
+Gi1/0/27                       admin down     down     
+Gi1/0/28                       admin down     down     
