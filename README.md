@@ -8,7 +8,6 @@
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-yellow?logo=linux)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Cisco](https://img.shields.io/badge/Cisco-IOS-blue)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-orange)
 ![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 
 ---
