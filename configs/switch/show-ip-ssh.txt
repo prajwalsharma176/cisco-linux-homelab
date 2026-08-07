@@ -1,0 +1,25 @@
+SSH Enabled - version 1.99
+
+Authentication methods:
+- publickey
+- keyboard-interactive
+- password
+
+Authentication Publickey Algorithms: <SUPPORTED_ALGORITHMS>
+Hostkey Algorithms:
+- x509v3-ssh-rsa
+- ssh-rsa
+
+Encryption Algorithms:
+<REDACTED>
+
+MAC Algorithms:
+<REDACTED>
+
+Authentication timeout: 120 secs
+Authentication retries: 3
+
+Minimum expected Diffie Hellman key size: 1024 bits
+
+IOS Keys in SECSH format:
+<REDACTED>
