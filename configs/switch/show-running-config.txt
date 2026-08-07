@@ -17,7 +17,7 @@ boot-start-marker
 boot-end-marker
 !
 !
-username prajwal privilege 15 secret 5 $1$B2p7$ms72oh0Jny.OG3t0ngXLs.
+username admin privilege 15 secret <REDACTED>
 no aaa new-model
 switch 1 provision ws-c2960x-24ts-l
 !
